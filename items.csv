@@ -23,7 +23,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R003_orig.jpg,images/R003_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R003_orig.jpg,images/R003_mid.jpg,1,0.0,0.0,gmap_acc
 R004,rated,Ovis-U1-3B,realunify,realunify_attentional_focusing,7,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: How many players are wearing face guards in the image?
 Option:
@@ -39,7 +39,7 @@ A. 2
 B. 1
 C. 4
 D. 3
-The best answer is:",images/R005_orig.jpg,images/R005_mid.jpg,1,,1.0,accuracy
+The best answer is:",images/R005_orig.jpg,images/R005_mid.jpg,1,0.0,1.0,accuracy
 R006,rated,Ovis-U1-3B,VisualPuzzles,VisualPuzzles_analogical,43,"Question: This question contains two sets of figures and 4 figures to choose from. The two sets of figures have certain similarities as well as differences. You are required to choose one option that is most suitable to replace the question mark. The correct answer should not only make the two sets of figures the most similar, but also shows uniqueness for the second set of figures.
 Options: Choose from (A) (B) (C) (D) in the image.",images/R006_orig.jpg,images/R006_mid.jpg,1,1.0,0.0,accuracy
 R007,rated,Janus-Pro-7B,illusionbench,illusionbench_arshia_logo_scene,78,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R007_orig.jpg,images/R007_mid.jpg,1,0.0,1.0,scene_recall
@@ -50,7 +50,7 @@ A. 8
 B. 7
 C. 6
 D. 5
-The best answer is:",images/R008_orig.jpg,images/R008_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R008_orig.jpg,images/R008_mid.jpg,1,1.0,0.0,accuracy
 R009,rated,Ovis-U1-3B,realunify,realunify_mental_tracking,59,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all black segments into yellow, then turn all purple segments into yellow, then turn all pink segments into green, then turn all green segments into blue, and finally turn all red segments into pink. After the process, which digits are formed by the yellow segments from left to right?
 Option:
@@ -78,7 +78,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R012_orig.jpg,images/R012_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R012_orig.jpg,images/R012_mid.jpg,1,0.0,0.0,gmap_acc
 R013,rated,Ovis-U1-3B,mmsi,mmsi_attribute_appr,10,"Figure 1 shows the front of the statue, with the statue at the center. Which side of the statue is shown in Figure 2?
 Options: A: Left, B: Back, C: Front, D: Right
 
@@ -101,7 +101,7 @@ Please analyze and determine the time needed for the car and the person passing 
 
 The car is moving right with speed 2.0, and the person is moving down with speed 0.1.",images/R016_orig.jpg,images/R016_mid.jpg,1,0.0,0.5,collision_acc
 R017,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_spatial,11,"Question: Given a pair of chairs arranged at a specific angle, select the option from the four provided that matches the angle of the chairs in the question.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R017_orig.jpg,images/R017_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R017_orig.jpg,images/R017_mid.jpg,1,0.0,0.0,accuracy
 R018,rated,Ovis-U1-3B,illusionbench,illusionbench_arshia_in_scene,1,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R018_orig.jpg,images/R018_mid.jpg,1,0.0,1.0,scene_recall
 R019,rated,Janus-Pro-7B,vsp,vsp_collision,6,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
@@ -136,14 +136,14 @@ A. Approximately 12:15
 B. Approximately 12:00
 C. Approximately 11:00
 D. Approximately 11:10
-The best answer is:",images/R023_orig.jpg,images/R023_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R023_orig.jpg,images/R023_mid.jpg,1,0.0,0.0,accuracy
 R024,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_inductive,66,"Question: Choose the most appropriate option from the four given choices to fill in the question mark, so that the figures follow a pattern.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R024_orig.jpg,images/R024_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R024_orig.jpg,images/R024_mid.jpg,1,0.0,0.0,accuracy
 R025,rated,BAGEL-7B-MoT,mmsi,mmsi_attribute_meas,29,"Which is wider, the width of the painting on the wall or the width of the white table next to the sofa?
 Options: A: None of the above, B: The width of the white table next to the sofa, C: The width of the painting on the wall, D: The same width
 
 Based on your measurement analysis, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R025_orig.jpg,images/R025_mid.jpg,1,1.0,1.0,average
-R026,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_scene,18,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R026_orig.jpg,images/R026_mid.jpg,1,,1.0,scene_recall
+R026,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_scene,18,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R026_orig.jpg,images/R026_mid.jpg,1,1.0,1.0,scene_recall
 R027,rated,BAGEL-7B-MoT,uni_mmmu,uni_mmmu_sliding54,41,滑块拼图（Sliding puzzle）：3×3 网格，8 块彩色方块和一个空位（红色）。每步把与空位相邻的一块滑入空位。请给出把拼图复原到目标状态的移动序列。中间图为模型逐步生成的拼图状态（每张图对应移动一步后的状态，最多展示 4 张）。,images/R027_orig.jpg,images/R027_mid.jpg,7,0.0,0.0,sliding_text_frame_acc
 R028,rated,Ovis-U1-3B,vsp,vsp_collision,13,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
@@ -202,9 +202,9 @@ A. 7
 B. 4
 C. 5
 D. 6
-The best answer is:",images/R034_orig.jpg,images/R034_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R034_orig.jpg,images/R034_mid.jpg,1,0.0,0.0,accuracy
 R035,rated,Ovis-U1-3B,illusionbench,illusionbench_arshia_icon_scene,67,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R035_orig.jpg,images/R035_mid.jpg,1,0.0,1.0,scene_recall
-R036,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_shape,67,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the icon that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R036_orig.jpg,images/R036_mid.jpg,1,,0.0,shape_recall
+R036,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_shape,67,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the icon that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R036_orig.jpg,images/R036_mid.jpg,1,0.0,0.0,shape_recall
 R037,rated,Ovis-U1-3B,vsp,vsp_google_map,6,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
 
 ## Game Setup
@@ -272,7 +272,7 @@ A. 3, 6
 B. 8, 2
 C. 9, 9
 D. 5, 4
-The best answer is:",images/R046_orig.jpg,images/R046_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R046_orig.jpg,images/R046_mid.jpg,1,0.0,0.0,accuracy
 R047,rated,Ovis-U1-3B,uni_mmmu,uni_mmmu_sliding54,43,滑块拼图（Sliding puzzle）：3×3 网格，8 块彩色方块和一个空位（红色）。每步把与空位相邻的一块滑入空位。请给出把拼图复原到目标状态的移动序列。中间图为模型逐步生成的拼图状态（每张图对应移动一步后的状态，最多展示 4 张）。,images/R047_orig.jpg,images/R047_mid.jpg,7,0.0,0.42857142857142855,sliding_text_frame_acc
 R048,rated,BAGEL-7B-MoT,vsp,vsp_google_map,1,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
 
@@ -291,7 +291,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R048_orig.jpg,images/R048_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R048_orig.jpg,images/R048_mid.jpg,1,0.0,0.0,gmap_acc
 R049,rated,Ovis-U1-3B,realunify,realunify_mental_tracking,51,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all blue segments into green, then turn all pink segments into orange, then turn all orange segments into red, and finally turn all red segments into black. After the process, which digits are formed by the green segments from left to right?
 Option:
@@ -331,7 +331,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R052_orig.jpg,images/R052_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R052_orig.jpg,images/R052_mid.jpg,1,0.0,0.0,gmap_acc
 R053,rated,Janus-Pro-7B,realunify,realunify_mental_tracking,51,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all blue segments into green, then turn all pink segments into orange, then turn all orange segments into red, and finally turn all red segments into black. After the process, which digits are formed by the green segments from left to right?
 Option:
@@ -339,7 +339,7 @@ A. 4, 7
 B. 9, 5
 C. 2, 9
 D. 4, 4
-The best answer is:",images/R053_orig.jpg,images/R053_mid.jpg,1,,1.0,accuracy
+The best answer is:",images/R053_orig.jpg,images/R053_mid.jpg,1,1.0,1.0,accuracy
 R054,rated,Janus-Pro-7B,mmsi,mmsi_motion_obj,73,"From the first frame to the second frame, how can you tell how the person mainly folds the white paper?
 Options: A: The upper part of the paper remains still, and the lower part is folded upward; B: The lower part of the paper remains still, and the upper part is folded upward; C: The upper part of the paper remains still, and the lower part is folded downward; D: The lower part of the paper remains still, and the upper part is folded downward.
 
@@ -354,7 +354,7 @@ A. 9, 2
 B. 3, 6
 C. 4, 7
 D. 2, 6
-The best answer is:",images/R057_orig.jpg,images/R057_mid.jpg,1,,1.0,accuracy
+The best answer is:",images/R057_orig.jpg,images/R057_mid.jpg,1,1.0,1.0,accuracy
 R058,calibration_example,BAGEL-7B-MoT,mmsi,mmsi_motion_cam,45,"The images are taken continuously from a first-person perspective. In which direction are you moving (the direction you are facing at the moment of image one is considered the front)?
 Options: A: Rear right, B: Front right, C: Front left, D: Right
 
@@ -379,7 +379,7 @@ Please analyze and determine the time needed for the car and the person passing 
 
 The car is moving right with speed 2.0, and the person is moving up with speed 0.1.",images/R062_orig.jpg,images/R062_mid.jpg,1,0.5,0.5,collision_acc
 R063,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_inductive,16,"Question: Choose the most appropriate option from the four given choices to fill in the question mark, so that the figures follow a pattern.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R063_orig.jpg,images/R063_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R063_orig.jpg,images/R063_mid.jpg,1,0.0,0.0,accuracy
 R064,rated,Ovis-U1-3B,vsp,vsp_collision,6,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
 ## Game Setup
@@ -411,10 +411,10 @@ A. 3
 B. 4
 C. 2
 D. 1
-The best answer is:",images/R068_orig.jpg,images/R068_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R068_orig.jpg,images/R068_mid.jpg,1,0.0,0.0,accuracy
 R069,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_analogical,43,"Question: This question contains two sets of figures and 4 figures to choose from. The two sets of figures have certain similarities as well as differences. You are required to choose one option that is most suitable to replace the question mark. The correct answer should not only make the two sets of figures the most similar, but also shows uniqueness for the second set of figures.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R069_orig.jpg,images/R069_mid.jpg,1,,0.0,accuracy
-R070,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_scene,1,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R070_orig.jpg,images/R070_mid.jpg,1,,1.0,scene_recall
+Options: Choose from (A) (B) (C) (D) in the image.",images/R069_orig.jpg,images/R069_mid.jpg,1,1.0,0.0,accuracy
+R070,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_scene,1,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R070_orig.jpg,images/R070_mid.jpg,1,1.0,1.0,scene_recall
 R071,rated,BAGEL-7B-MoT,vsp,vsp_collision,13,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
 ## Game Setup
@@ -426,8 +426,8 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving right with speed 2.0, and the person is moving up with speed 0.1.",images/R071_orig.jpg,images/R071_mid.jpg,1,,0.0,collision_acc
-R072,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_scene,67,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R072_orig.jpg,images/R072_mid.jpg,1,,1.0,scene_recall
+The car is moving right with speed 2.0, and the person is moving up with speed 0.1.",images/R071_orig.jpg,images/R071_mid.jpg,1,0.0,0.0,collision_acc
+R072,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_scene,67,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R072_orig.jpg,images/R072_mid.jpg,1,1.0,1.0,scene_recall
 R073,rated,BAGEL-7B-MoT,realunify,realunify_attentional_focusing,7,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: How many players are wearing face guards in the image?
 Option:
@@ -474,13 +474,13 @@ R080,rated,Ovis-U1-3B,mmsi,mmsi_motion_obj,13,"The image is a series of first-pe
 Options: A: Up, B: Down, C: Right, D: Left
 
 Based on your analysis of object motion, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R080_orig.jpg,images/R080_mid.jpg,1,0.0,0.0,average
-R081,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_scene,78,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R081_orig.jpg,images/R081_mid.jpg,1,,0.0,scene_recall
+R081,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_scene,78,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R081_orig.jpg,images/R081_mid.jpg,1,0.0,0.0,scene_recall
 R082,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_analogical,1,"Question: Based on the relationship between Origin and Analogy, select the option from the candidates that best completes this analogy.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R082_orig.jpg,images/R082_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R082_orig.jpg,images/R082_mid.jpg,1,0.0,0.0,accuracy
 R083,rated,Ovis-U1-3B,VisualPuzzles,VisualPuzzles_inductive,66,"Question: Choose the most appropriate option from the four given choices to fill in the question mark, so that the figures follow a pattern.
 Options: Choose from (A) (B) (C) (D) in the image.",images/R083_orig.jpg,images/R083_mid.jpg,1,0.0,1.0,accuracy
 R084,rated,BAGEL-7B-MoT,uni_mmmu,uni_mmmu_maze100,13,迷宫（Maze）：黑格为墙，白格为通路，蓝点为起点，绿色框为终点。只能上下左右每次走一格。请给出从起点走到终点的移动序列。中间图为模型逐步生成的走迷宫状态（每张图对应走一步后的状态，最多展示 4 张）。,images/R084_orig.jpg,images/R084_mid.jpg,6,0.16666666666666666,0.0,maze_text_frame_acc
-R085,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_shape,19,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the icon that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R085_orig.jpg,images/R085_mid.jpg,1,,0.0,shape_recall
+R085,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_icon_shape,19,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the icon that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R085_orig.jpg,images/R085_mid.jpg,1,0.0,0.0,shape_recall
 R086,rated,Janus-Pro-7B,chartqa,chartqa100,11,"Which place shows the value of  6.67 tonnes ?
 Answer the question with a single word.",images/R086_orig.jpg,images/R086_mid.jpg,1,0.0,0.0,relaxed_overall
 R087,rated,Ovis-U1-3B,vsp,vsp_google_map,1,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
@@ -512,13 +512,13 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving right with speed 2.0, and the person is moving down with speed 0.1.",images/R088_orig.jpg,images/R088_mid.jpg,1,,0.0,collision_acc
+The car is moving right with speed 2.0, and the person is moving down with speed 0.1.",images/R088_orig.jpg,images/R088_mid.jpg,1,0.5,0.0,collision_acc
 R089,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_algorithmic,10,"Question: The entire pie seen in the image is divided among several children. Each child receives a piece of pie, and each piece of pie looks identical. What is the maximum possible number of children there?
 Options:
 (A) 11
 (B) 8
 (C) 10
-(D) 14",images/R089_orig.jpg,images/R089_mid.jpg,1,,1.0,accuracy
+(D) 14",images/R089_orig.jpg,images/R089_mid.jpg,1,0.0,1.0,accuracy
 R090,rated,Janus-Pro-7B,illusionbench,illusionbench_arshia_logo_scene,87,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R090_orig.jpg,images/R090_mid.jpg,1,1.0,1.0,scene_recall
 R091,rated,Ovis-U1-3B,VisualPuzzles,VisualPuzzles_algorithmic,10,"Question: The entire pie seen in the image is divided among several children. Each child receives a piece of pie, and each piece of pie looks identical. What is the maximum possible number of children there?
 Options:
@@ -533,10 +533,10 @@ Options:
 (A) 16
 (B) 17
 (C) 13
-(D) 15",images/R093_orig.jpg,images/R093_mid.jpg,1,,0.0,accuracy
+(D) 15",images/R093_orig.jpg,images/R093_mid.jpg,1,0.0,0.0,accuracy
 R094,rated,Janus-Pro-7B,illusionbench,illusionbench_arshia_in_scene,0,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R094_orig.jpg,images/R094_mid.jpg,1,1.0,1.0,scene_recall
 R095,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_inductive,75,"Question: Choose the most appropriate option from the four given choices to fill in the question mark, so that the figures follow a pattern.
-Options: Choose from (A) (B) (C) (D) in the image.",images/R095_orig.jpg,images/R095_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R095_orig.jpg,images/R095_mid.jpg,1,0.0,0.0,accuracy
 R096,rated,BAGEL-7B-MoT,realunify,realunify_mental_tracking,59,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all black segments into yellow, then turn all purple segments into yellow, then turn all pink segments into green, then turn all green segments into blue, and finally turn all red segments into pink. After the process, which digits are formed by the yellow segments from left to right?
 Option:
@@ -576,7 +576,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R100_orig.jpg,images/R100_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R100_orig.jpg,images/R100_mid.jpg,1,0.0,0.0,gmap_acc
 R101,rated,Ovis-U1-3B,realunify,realunify_mental_reconstruction,90,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: What color is the third flag from the right?
 Option:
@@ -592,7 +592,7 @@ A. White
 B. Red
 C. Blue
 D. Yellow
-The best answer is:",images/R102_orig.jpg,images/R102_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R102_orig.jpg,images/R102_mid.jpg,1,0.0,0.0,accuracy
 R103,rated,Janus-Pro-7B,vsp,vsp_google_map,38,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
 
 ## Game Setup
@@ -639,7 +639,7 @@ A. epog MIX
 B. epoc MIX
 C. epig MIX
 D. epio MIX
-The best answer is:",images/R108_orig.jpg,images/R108_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R108_orig.jpg,images/R108_mid.jpg,1,0.0,0.0,accuracy
 R109,rated,Janus-Pro-7B,mmsi,mmsi_motion_cam,36,"The images are taken continuously from a first-person perspective. In which direction are you moving (with the direction you are facing in the first image as the front)?
 Options: A: Rear right, B: Front, C: Rear, D: Rear left
 
@@ -649,7 +649,7 @@ R111,rated,BAGEL-7B-MoT,mmsi,mmsi_msr,95,"In the direction facing forward from t
 Options: A: Front, B: Back, C: Right, D: Left
 
 Based on your multi-step reasoning, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R111_orig.jpg,images/R111_mid.jpg,1,0.0,1.0,average
-R112,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_scene,0,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R112_orig.jpg,images/R112_mid.jpg,1,,1.0,scene_recall
+R112,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_scene,0,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R112_orig.jpg,images/R112_mid.jpg,1,1.0,1.0,scene_recall
 R113,rated,Janus-Pro-7B,mmsi,mmsi_attribute_meas,83,"Which has a greater height: the white object in Figure 1, which is right next to and looks like a water dispenser or coffee machine, or the green glass bottle near the wall in Figure 2?
 Options: A: The green glass bottle in Figure 2, B: The same height, C: The object in Figure 1, D: Sometimes the one in Figure 1 is taller, sometimes the one in Figure 2 is taller
 
@@ -667,13 +667,13 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving left with speed 0.5, and the person is moving up with speed 0.5.",images/R115_orig.jpg,images/R115_mid.jpg,1,,0.5,collision_acc
+The car is moving left with speed 0.5, and the person is moving up with speed 0.5.",images/R115_orig.jpg,images/R115_mid.jpg,1,0.5,0.5,collision_acc
 R116,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_spatial,37,"Question: After folding a sheet of paper 2 times through the dashed lines, a man cuts it through the red line as shown. How many pieces of paper does he end up with?
 Options:
 (A) 3
 (B) 6
 (C) 2
-(D) 5",images/R116_orig.jpg,images/R116_mid.jpg,1,,0.0,accuracy
+(D) 5",images/R116_orig.jpg,images/R116_mid.jpg,1,0.0,0.0,accuracy
 R117,rated,Janus-Pro-7B,mmsi,mmsi_attribute_appr,10,"Figure 1 shows the front of the statue, with the statue at the center. Which side of the statue is shown in Figure 2?
 Options: A: Left, B: Back, C: Front, D: Right
 
@@ -682,7 +682,7 @@ R118,rated,Janus-Pro-7B,mmsi,mmsi_attribute_meas,24,"Which is narrower, the widt
 Options: A: Sometimes the width of the sofa is narrower, sometimes the width of a single window on one side is narrower, B: The width of a single window on one side is narrower, C: The width of the sofa is narrower, D: They are equally narrow
 
 Based on your measurement analysis, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R118_orig.jpg,images/R118_mid.jpg,1,0.0,1.0,average
-R119,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_shape,82,"This image contains a icon integrated into a background, where elements of the background contribute to forming the logo. Identify the logo that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, Instagra … y, Starbucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the logo. You have to respond with a single word.",images/R119_orig.jpg,images/R119_mid.jpg,1,,0.0,shape_recall
+R119,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_shape,82,"This image contains a icon integrated into a background, where elements of the background contribute to forming the logo. Identify the logo that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, Instagra … y, Starbucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the logo. You have to respond with a single word.",images/R119_orig.jpg,images/R119_mid.jpg,1,0.0,0.0,shape_recall
 R120,rated,Ovis-U1-3B,chartqa,chartqa100,7,"Is the sum of two smallest segment greater than largest segment?
 Answer the question with a single word.",images/R120_orig.jpg,images/R120_mid.jpg,1,0.0,1.0,relaxed_overall
 R121,rated,Ovis-U1-3B,vsp,vsp_google_map,38,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
@@ -722,7 +722,7 @@ Do not output any extra content after the above aggregated output.
 
 Please output path for the following map:
 
-[Test Image]",images/R124_orig.jpg,images/R124_mid.jpg,1,,0.0,gmap_acc
+[Test Image]",images/R124_orig.jpg,images/R124_mid.jpg,1,0.0,0.0,gmap_acc
 R125,rated,Ovis-U1-3B,VisualPuzzles,VisualPuzzles_inductive,16,"Question: Choose the most appropriate option from the four given choices to fill in the question mark, so that the figures follow a pattern.
 Options: Choose from (A) (B) (C) (D) in the image.",images/R125_orig.jpg,images/R125_mid.jpg,1,0.0,1.0,accuracy
 R126,rated,BAGEL-7B-MoT,mmsi,mmsi_msr,81,"These four pictures show a square kitchen. Analyzing the white furniture (or appliances) that appear in Pictures 2, 3, and 4, which one is the farthest from the door in Picture 1 in terms of horizontal distance?
@@ -773,7 +773,7 @@ R135,rated,Janus-Pro-7B,mmsi,mmsi_msr,81,"These four pictures show a square kitc
 Options: A: The one in Picture 2, B: The one in Picture 4, C: Equally far, D: The one in Picture 3
 
 Based on your multi-step reasoning, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R135_orig.jpg,images/R135_mid.jpg,1,0.0,0.0,average
-R136,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_shape,34,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the shape that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guitar, Mug … Paper_clip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R136_orig.jpg,images/R136_mid.jpg,1,,0.0,shape_recall
+R136,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_shape,34,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the shape that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guitar, Mug … Paper_clip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R136_orig.jpg,images/R136_mid.jpg,1,0.0,0.0,shape_recall
 R137,rated,Ovis-U1-3B,vsp,vsp_collision,34,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
 ## Game Setup
@@ -798,14 +798,14 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving left with speed 1.0, and the person is moving down with speed 1.0.",images/R139_orig.jpg,images/R139_mid.jpg,1,,0.5,collision_acc
+The car is moving left with speed 1.0, and the person is moving down with speed 1.0.",images/R139_orig.jpg,images/R139_mid.jpg,1,0.5,0.5,collision_acc
 R140,rated,Janus-Pro-7B,illusionbench,illusionbench_arshia_icon_scene,67,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R140_orig.jpg,images/R140_mid.jpg,1,1.0,1.0,scene_recall
 R141,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_spatial,92,"Question: Five polygon cards are stacked on a table as shown. Each card is numbered according to the color shown at the bottom. The cards are removed one by one from the top of the stack. In what possible order are the cards removed?
 Options:
 (A) 5-2-3-1-4
 (B) 5-1-2-3-4
 (C) 1-2-5-3-4
-(D) 4-3-1-2-5",images/R141_orig.jpg,images/R141_mid.jpg,1,,0.0,accuracy
+(D) 4-3-1-2-5",images/R141_orig.jpg,images/R141_mid.jpg,1,0.0,0.0,accuracy
 R142,rated,Ovis-U1-3B,realunify,realunify_mental_tracking,86,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all green segments into purple, then turn all pink segments into yellow, then turn all yellow segments into red, and finally turn all red segments into orange. After the process, which digits are formed by the purple segments from left to right?
 Option:
@@ -834,7 +834,7 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving left with speed 3.0, and the person is moving down with speed 0.25.",images/R147_orig.jpg,images/R147_mid.jpg,1,,0.0,collision_acc
+The car is moving left with speed 3.0, and the person is moving down with speed 0.25.",images/R147_orig.jpg,images/R147_mid.jpg,1,0.0,0.0,collision_acc
 R148,rated,Ovis-U1-3B,vsp,vsp_google_map,19,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
 
 ## Game Setup
@@ -929,7 +929,7 @@ C. 4
 D. 3
 The best answer is:",images/R158_orig.jpg,images/R158_mid.jpg,1,1.0,1.0,accuracy
 R159,rated,Janus-Pro-7B,illusionbench,illusionbench_arshia_in_scene,1,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guita … lip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R159_orig.jpg,images/R159_mid.jpg,1,1.0,0.0,scene_recall
-R160,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_scene,87,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R160_orig.jpg,images/R160_mid.jpg,1,,1.0,scene_recall
+R160,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_scene,87,"This image contains an icon integrated into a background, where elements of the background contribute to forming the logo. Identify the background that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, I … bucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R160_orig.jpg,images/R160_mid.jpg,1,1.0,1.0,scene_recall
 R161,rated,Janus-Pro-7B,realunify,realunify_mental_tracking,86,"Select the best answer to the following multiple-option question based on the image. Respond with only the letter (A, B, C, or D) of the correct option.
 Question: Apply the transformations sequentially: first turn all green segments into purple, then turn all pink segments into yellow, then turn all yellow segments into red, and finally turn all red segments into orange. After the process, which digits are formed by the purple segments from left to right?
 Option:
@@ -937,7 +937,7 @@ A. 7, 0
 B. 6, 6
 C. 8, 1
 D. 1, 5
-The best answer is:",images/R161_orig.jpg,images/R161_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R161_orig.jpg,images/R161_mid.jpg,1,0.0,0.0,accuracy
 R162,rated,Ovis-U1-3B,mmsi,mmsi_motion_cam,45,"The images are taken continuously from a first-person perspective. In which direction are you moving (the direction you are facing at the moment of image one is considered the front)?
 Options: A: Rear right, B: Front right, C: Front left, D: Right
 
@@ -1005,17 +1005,17 @@ Please analyze and determine the time needed for the car and the person passing 
 
 [Test Image]
 
-The car is moving left with speed 3.0, and the person is moving up with speed 0.1.",images/R169_orig.jpg,images/R169_mid.jpg,1,,0.0,collision_acc
+The car is moving left with speed 3.0, and the person is moving up with speed 0.1.",images/R169_orig.jpg,images/R169_mid.jpg,1,0.0,0.0,collision_acc
 R170,rated,Ovis-U1-3B,illusionbench,illusionbench_arshia_icon_scene,18,"This image contains an icon integrated into a background, where elements of the background contribute to forming the icon. Identify the background that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square. Provide your response by stating only the single, most accurate class name that represents the background. You have to respond with a single word.",images/R170_orig.jpg,images/R170_mid.jpg,1,1.0,1.0,scene_recall
 R171,rated,Ovis-U1-3B,illusionbench,illusionbench_arshia_icon_shape,67,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the icon that is represented in the image by choosing exclusively among the following options:Animal, Face_Emoji, Music, Sport, Stationery, Vehicle,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R171_orig.jpg,images/R171_mid.jpg,1,0.0,0.0,shape_recall
 R172,rated,Ovis-U1-3B,mmsi,mmsi_motion_obj,12,"The picture is taken continuously from a first-person perspective. In which direction is your hand moving?
 Options: A: lower left, B: upper left, C: up, D: right
 
 Based on your analysis of object motion, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R172_orig.jpg,images/R172_mid.jpg,1,0.0,0.0,average
-R173,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_shape,23,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the shape that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guitar, Mug … Paper_clip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R173_orig.jpg,images/R173_mid.jpg,1,,0.0,shape_recall
-R174,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_shape,3,"This image contains a icon integrated into a background, where elements of the background contribute to forming the logo. Identify the logo that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, Instagra … y, Starbucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the logo. You have to respond with a single word.",images/R174_orig.jpg,images/R174_mid.jpg,1,,0.0,shape_recall
+R173,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_in_shape,23,"This image contains a icon integrated into a background, where elements of the background contribute to forming the icon. Identify the shape that is represented in the image by choosing exclusively among the following options:Airplane, Bicycle, Bird, Bottle, Car, Cat, Dog, Dolphin, Fork, Guitar, Mug … Paper_clip, Sailboat, Scooter, Teapot,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the icon. You have to respond with a single word.",images/R173_orig.jpg,images/R173_mid.jpg,1,0.0,0.0,shape_recall
+R174,rated,BAGEL-7B-MoT,illusionbench,illusionbench_arshia_logo_shape,3,"This image contains a icon integrated into a background, where elements of the background contribute to forming the logo. Identify the logo that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, Instagra … y, Starbucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the logo. You have to respond with a single word.",images/R174_orig.jpg,images/R174_mid.jpg,1,0.0,0.0,shape_recall
 R175,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_deductive,46,"Question: These four animals are made up from different shapes. There is one shape which is only used on one animal. On which animal is this shape used?
-Options: Choose from (A) (B) (C) (D) in the image.",images/R175_orig.jpg,images/R175_mid.jpg,1,,1.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R175_orig.jpg,images/R175_mid.jpg,1,0.0,1.0,accuracy
 R176,rated,Ovis-U1-3B,VisualPuzzles,VisualPuzzles_deductive,59,"Question: Anna has placed matches along the dotted lines to create a path. She has placed the first match as shown in the diagram. The path is in such a way that in the end it leads back to the left end of the first match. The numbers in the small squares state how many sides of the square she has placed matches on. What is the minimum number of matches she has used?
 Options:
 (A) 14
@@ -1030,7 +1030,7 @@ A. 5
 B. 4
 C. 6
 D. 3
-The best answer is:",images/R178_orig.jpg,images/R178_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R178_orig.jpg,images/R178_mid.jpg,1,1.0,0.0,accuracy
 R179,rated,BAGEL-7B-MoT,VisualPuzzles,VisualPuzzles_deductive,52,"Question: Patricia painted some of the cells of a 4x4 grid. Carl counted how many red cells there were in each row and in each column and created a table to show his answers. Which of the following tables could Carl have created?
 Options: Choose from (A) (B) (C) (D) in the image.",images/R179_orig.jpg,images/R179_mid.jpg,1,0.0,0.0,accuracy
 R180,rated,BAGEL-7B-MoT,mmsi,mmsi_motion_obj,13,"The image is a series of first-person perspective shots, with the far end of the scissors on the right-hand side. In which direction is the far end of the scissors moving?
@@ -1092,7 +1092,7 @@ Options: A: Front, B: Back, C: Right, D: Left
 Based on your multi-step reasoning, answer with the option's letter from the given choices directly. Enclose the option's letter within ``.",images/R190_orig.jpg,images/R190_mid.jpg,1,0.0,1.0,average
 R191,rated,Ovis-U1-3B,illusionbench,illusionbench_arshia_logo_shape,3,"This image contains a icon integrated into a background, where elements of the background contribute to forming the logo. Identify the logo that is represented in the image by choosing exclusively among the following options:Adidas, Amazon, Apple, Audi, BMW, Mercedes Benz, Facebook, Google, Instagra … y, Starbucks, Tesla, Telegram, Ubuntu,Ocean, Origami, Forest, Cloud, Sand_dune, Medieval_Village, City, Underwater_ruins, Museum, Bazaar_market, Time_square Provide your response by stating only the single, most accurate class name that represents the logo. You have to respond with a single word.",images/R191_orig.jpg,images/R191_mid.jpg,1,0.0,0.0,shape_recall
 R192,rated,Janus-Pro-7B,VisualPuzzles,VisualPuzzles_deductive,52,"Question: Patricia painted some of the cells of a 4x4 grid. Carl counted how many red cells there were in each row and in each column and created a table to show his answers. Which of the following tables could Carl have created?
-Options: Choose from (A) (B) (C) (D) in the image.",images/R192_orig.jpg,images/R192_mid.jpg,1,,0.0,accuracy
+Options: Choose from (A) (B) (C) (D) in the image.",images/R192_orig.jpg,images/R192_mid.jpg,1,0.0,0.0,accuracy
 R193,rated,Ovis-U1-3B,vsp,vsp_collision,16,"As a professional navigation agent, your task is to analyze a map and determine the time needed for the car and the person passing the goal.
 
 ## Game Setup
@@ -1160,7 +1160,7 @@ Options:
 (A) 14
 (B) 15
 (C) 16
-(D) 17",images/R204_orig.jpg,images/R204_mid.jpg,1,,0.0,accuracy
+(D) 17",images/R204_orig.jpg,images/R204_mid.jpg,1,1.0,0.0,accuracy
 R205,rated,Janus-Pro-7B,vsp,vsp_google_map,6,"As a professional pathfinder, your task is to analyze a map and find a route from the starting location to the goal. Since coding is not within your skill set, your approach relies on logical reasoning of the map.
 
 ## Game Setup
@@ -1196,7 +1196,7 @@ A. 3, 8
 B. 4, 9
 C. 9, 1
 D. 6, 5
-The best answer is:",images/R209_orig.jpg,images/R209_mid.jpg,1,,0.0,accuracy
+The best answer is:",images/R209_orig.jpg,images/R209_mid.jpg,1,0.0,0.0,accuracy
 R210,rated,BAGEL-7B-MoT,mmsi,mmsi_motion_obj,73,"From the first frame to the second frame, how can you tell how the person mainly folds the white paper?
 Options: A: The upper part of the paper remains still, and the lower part is folded upward; B: The lower part of the paper remains still, and the upper part is folded upward; C: The upper part of the paper remains still, and the lower part is folded downward; D: The lower part of the paper remains still, and the upper part is folded downward.
 

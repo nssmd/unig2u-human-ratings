@@ -45,13 +45,13 @@ Mean ratings are over all rated items. Accuracies are over the items that have G
 
 | Model | Fidelity | Helpfulness | Items with GtA results | GtA acc. | Direct acc. | GtA − Direct |
 |---|---|---|---|---|---|---|
-| BAGEL-7B-MoT | 3.08 | 2.70 | 44 | 0.393 | 0.341 | +0.052 |
+| BAGEL-7B-MoT | 3.08 | 2.70 | 67 | 0.347 | 0.313 | +0.034 |
 | Ovis-U1-3B | 1.87 | 1.62 | 69 | 0.196 | 0.361 | −0.166 |
-| Janus-Pro-7B | 1.40 | 1.31 | 44 | 0.170 | 0.364 | −0.193 |
+| Janus-Pro-7B | 1.40 | 1.31 | 70 | 0.193 | 0.300 | −0.107 |
 
 The model whose intermediates are rated highest (BAGEL) is the only one that gains from GtA on these items.
 
-Some items have no GtA score yet because their runs were still in progress when this package was built. These items are rated but excluded from the accuracy columns.
+One BAGEL item has no GtA score and is excluded from the accuracy columns.
 
 ## Notes
 
