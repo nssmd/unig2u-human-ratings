@@ -57,3 +57,7 @@ Some items have no GtA score yet because their runs were still in progress when 
 
 - For maze and sliding puzzle, scores are frame accuracy, the benchmark's metric for these tasks. All other tasks are scored 0/1 or with the task's own metric (see `metric` in `items.csv`).
 - Annotator identities are withheld; annotators are labelled A, B and C.
+
+## Automatic RA / AL scores
+
+`ra_al.csv` gives the paper's RA (reasoning-to-visual alignment) and AL (answer-to-visual alignment) scores for the same items. They were produced with the paper's judge prompts (Appendix M) and GPT-5.6 as the judge; the model was asked to output only the integer score. Against the mean human fidelity rating, RA has Spearman ρ = 0.64 (95% CI [0.54, 0.72]) and quadratic-weighted κ = 0.63, comparable to the agreement among the three annotators (α = 0.61).
